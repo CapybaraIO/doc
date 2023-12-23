@@ -4,7 +4,7 @@
   "private": true,
   "prettier": "@stacks/prettier-config",
   "scripts": {
-    "build": "yarn update:cli-ref && yarn pull-openapi-definitions && docusaurus build",
+    "build": "yarn update:cli-ref && docusaurus build",
     "clear": "docusaurus clear",
     "deploy": "docusaurus deploy",
     "dev": "docusaurus start",
