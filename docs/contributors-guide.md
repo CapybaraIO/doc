@@ -26,7 +26,7 @@ Edit the docs locally for larger edits or new documents, following the steps des
 
 ### **Editing docs locally**
 
-To submit a pull request to update the docs, fork the Hiro Docs repository and clone it. Currently, all Hiro docs are located in `/hirosystems/docs`
+To submit a pull request to update the docs, fork the capybara repository and clone it. Currently, all capybara are located in `/hirosystems/docs`
 
 1. Create a branch and switch to that branch:
     ```sh

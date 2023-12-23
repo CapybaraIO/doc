@@ -4,7 +4,7 @@ const darkCodeTheme = require('./src/theme/hiro-dark-code.js');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Hiro Docs',
+  title: 'capybara',
   tagline: 'Developer tools for Stacks',
   url: 'https://CapybaraIO.github.io/',
   baseUrl: '/doc/',
@@ -15,6 +15,7 @@ module.exports = {
   projectName: 'doc', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
+  onBrokenLinks: "ignore",
 
   plugins: [
     require.resolve('docusaurus-plugin-segment'),
@@ -74,7 +75,7 @@ module.exports = {
     ({
       navbar: {
         logo: {
-          alt: 'Hiro developers',
+          alt: 'capybara',
           src: 'img/hiro-docs-logo.svg',
           srcDark: 'img/hiro-docs-logo-dark.svg',
           target: '_self',
@@ -206,7 +207,12 @@ module.exports = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Hiro Systems, PBC.`,
+        copyright: `Copyright © ${new Date().getFullYear()} capybara`,
+      },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
       prism: {
         theme: lightCodeTheme,

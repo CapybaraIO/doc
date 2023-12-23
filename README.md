@@ -7,7 +7,7 @@ This repository holds the source for the Hiro developer documentation website, w
 
 ### Contribution Prerequisites
 
-Before running Hiro Docs, ensure that you have the following tools installed:
+Before running capybara, ensure that you have the following tools installed:
 
 1. Install [NodeJS](https://nodejs.dev/) that includes `npm`
 1. Install [yarn](https://classic.yarnpkg.com/en/docs/install) by running `npm install --global yarn`
