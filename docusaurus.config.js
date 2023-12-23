@@ -6,13 +6,14 @@ const darkCodeTheme = require('./src/theme/hiro-dark-code.js');
 module.exports = {
   title: 'Hiro Docs',
   tagline: 'Developer tools for Stacks',
-  url: 'https://docs.hiro.so',
+  url: 'https://CapybaraIO.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'hirosystems', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: 'CapybaraIO', // Usually your GitHub org/user name.
+  projectName: 'doc', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
   plugins: [

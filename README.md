@@ -44,3 +44,7 @@ yarn build
 ## Deployment
 
 This website is configured to deploy automatically on PR merge using [Vercel](https://www.vercel.com).
+
+```sh
+yarn deploy
+```
