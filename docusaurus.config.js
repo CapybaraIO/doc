@@ -15,21 +15,6 @@ module.exports = {
   projectName: 'doc', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
-  
-  title: 'zDocs', // The title of the website
-  tagline: 'show me your code', // A word on the front page
-  url: 'https://doublez1099.github.io/', // Your website URL
-  baseUrl: '/zDocs/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/cat4.png',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'DoubleZ1099', // Usually your GitHub org/user name.
-  projectName: 'zDocs', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
-  trailingSlash: false,
 
   plugins: [
     require.resolve('docusaurus-plugin-segment'),
@@ -73,7 +58,7 @@ module.exports = {
         },
         docs: {
           sidebarPath: require.resolve('./sidebars/main.js'),
-          editUrl: 'https://github.com/hirosystems/docs/tree/main',
+          editUrl: 'https://github.com/CapybaraIO/doc/tree/main',
           routeBasePath: '/',
           breadcrumbs: false, // todo: enable at some point (breadcrumbs need a design overhaul first)
         },
@@ -117,7 +102,7 @@ module.exports = {
             ],
           },
           {
-            href: 'https://github.com/hirosystems/docs',
+            href: 'https://github.com/CapybaraIO/doc',
             className: 'header-github-link',
             title: 'GitHub Repository',
             'aria-label': 'GitHub Repository',
@@ -196,7 +181,7 @@ module.exports = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/hirosystems/docs',
+                href: 'https://github.com/CapybaraIO/doc',
               },
               {
                 label: 'Stacks Docs',
