@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_hirosystems_docs=self.webpackChunk_hirosystems_docs||[]).push([[5458],{78672:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-openapi","id":"ordinals"}')}}]);

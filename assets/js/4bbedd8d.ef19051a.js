@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_CapybaraIO_docs=self.webpackChunk_CapybaraIO_docs||[]).push([[5092],{37574:a=>{a.exports=JSON.parse('{"name":"docusaurus-plugin-openapi","id":"stx-blockchain"}')}}]);
