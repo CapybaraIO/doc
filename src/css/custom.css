@@ -186,11 +186,11 @@
    width: 24px;
    height: 24px;
    display: flex;
-   background: url("/static/img/github-logo.svg") no-repeat;
+   background: url("/img/github-logo.svg") no-repeat;
  }
 
  .DocSearch-Button {
-  background-color: var(--ifm-color-gray-100) !important;
+  background-color: #ffffff !important;
   width: 10rem;
  }
 
@@ -429,8 +429,8 @@
  .menu__link {
    font-size: 0.8rem;
    background-color: transparent !important;
-   line-height: 3rem;
-   padding: 0 2.25rem 0 2.25rem;
+   height: 3rem;
+   padding: 0 1.25rem 0 2.25rem;
  }
  
  [data-theme='light'] .menu__link {
@@ -459,7 +459,7 @@
  }
  
  a.menu__link.menu__link--sublist.menu__link--sublist-caret::after {
-   background: var(--ifm-menu-link-sublist-icon) 50% / 2rem 1rem;
+   background: var(--ifm-menu-link-sublist-icon) 55% / 5rem 1.5rem;
  }
  
  [data-theme='light'] .footer__title {

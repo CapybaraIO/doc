@@ -2,7 +2,7 @@ export default {
   hero: {
     title: 'Get started',
     image: {
-      src: '/img/landing/hero.png',
+      src: '/doc/img/landing/hero.png',
       alt: 'web3 illustration image',
     },
     text: 'Explore API references, feature guides, and tutorials to integrate Stacks and Ordinals into your application. Start here:',
@@ -37,7 +37,7 @@ export default {
         text: 'Stacks blockchain API allows you to query the Stacks blockchain and interact with smart contracts.',
         href: '/stacks-blockchain-api',
         image: {
-          src: '/img/landing/api.png',
+          src: '/doc/img/landing/api.png',
           alt: 'web3 APIs illustration image',
         },
       },
@@ -46,7 +46,7 @@ export default {
         text: 'Ordinals API is a REST-based service that indexes Bitcoin inscriptions based on Ordinal theory. The API supports Auto-scaling and Etag caching.',
         href: '/ordinals-api',
         image: {
-          src: '/img/landing/ordinals-api.png',
+          src: '/doc/img/landing/ordinals-api.png',
           alt: 'Ordinals API',
         },
       },
@@ -55,7 +55,7 @@ export default {
         text: 'Stacks.js is an SDK with a collection of JavaScript libraries to interact with and transact on the Stacks blockchain.',
         href: '/stacks.js',
         image: {
-          src: '/img/landing/stacksjs.png',
+          src: '/doc/img/landing/stacksjs.png',
           alt: 'Abstract blockchain illustration image',
         },
       },
@@ -65,7 +65,7 @@ export default {
     {
       title: 'Hiro Platform',
       image: {
-        src: '/img/landing/stacks-logo.svg',
+        src: '/doc/img/landing/stacks-logo.svg',
         alt: 'Stacks logo',
       },
       description:
@@ -91,7 +91,7 @@ export default {
     {
       title: 'Clarinet',
       image: {
-        src: '/img/landing/clarity-logo.svg',
+        src: '/doc/img/landing/clarity-logo.svg',
         alt: 'Clarity logo',
       },
       description:
@@ -117,7 +117,7 @@ export default {
     {
       title: 'Chainhook',
       image: {
-        src: '/img/landing/chainhooks-icon.svg',
+        src: '/doc/img/landing/chainhooks-icon.svg',
         alt: 'Chainhook logo',
       },
       description:

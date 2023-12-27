@@ -20,7 +20,7 @@ module.exports = {
   plugins: [
     require.resolve('docusaurus-plugin-segment'),
     ['./src/_plugins/google-tag-manager', { id: 'GTM-59XXGSG' }],
-    ['./src/_plugins/alltius', { id: 'alltius' }],
+    // ['./src/_plugins/alltius', { id: 'alltius' }],
     [
       'docusaurus-plugin-openapi',
       {
@@ -62,6 +62,9 @@ module.exports = {
           editUrl: 'https://github.com/CapybaraIO/doc/tree/main',
           routeBasePath: '/',
           breadcrumbs: false, // todo: enable at some point (breadcrumbs need a design overhaul first)
+          sidebarCollapsible: true,
+          breadcrumbs: true,
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -117,96 +120,96 @@ module.exports = {
           src: 'img/hiro-docs-footer.svg',
           srcDark: 'img/hiro-docs-footer-light.svg',
         },
-        links: [
-          {
-            title: 'Hiro Developers',
-            items: [
-              {
-                label: 'Tutorials',
-                to: '/tutorials',
-              },
-              {
-                label: 'Example Apps',
-                to: '/example-apps',
-              },
-              {
-                label: 'Stacks CLI',
-                to: '/references/stacks-cli',
-              },
-            ],
-          },
-          {
-            title: 'References',
-            items: [
-              {
-                label: 'Stacks.js',
-                href: 'https://stacks.js.org',
-              },
-              {
-                label: 'Stacks Connect',
-                href: 'https://connect.stacks.js.org',
-              },
-              {
-                label: 'Clarity Functions',
-                href: 'https://docs.stacks.co/docs/clarity/language-functions',
-              },
-              {
-                label: 'Clarity Keywords',
-                href: 'https://docs.stacks.co/docs/clarity/language-keywords',
-              },
-              {
-                label: 'Clarity Types',
-                href: 'https://docs.stacks.co/docs/clarity/language-types',
-              },
-            ],
-          },
-          {
-            title: 'Stacks Community',
-            items: [
-              {
-                label: 'Discord',
-                href: 'https://stacks.chat',
-              },
-              {
-                label: 'Stacks Forum',
-                href: 'https://forum.stacks.org',
-              },
-              {
-                label: 'Reddit',
-                href: 'https://www.reddit.com/r/stacks',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/CapybaraIO/doc',
-              },
-              {
-                label: 'Stacks Docs',
-                href: 'https://docs.stacks.co',
-              },
-              {
-                label: 'Blog',
-                href: 'https://www.hiro.so/blog',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/hirosystems',
-              },
-              {
-                label: 'Youtube',
-                href: 'https://www.youtube.com/channel/UC3xNLj2Mu7fW-BCq-vC9xKQ',
-              },
-              {
-                label: 'Newsletter',
-                href: 'https://hiro.so/updates-docs',
-              },
-            ],
-          },
-        ],
+        // links: [
+        //   {
+        //     title: 'Hiro Developers',
+        //     items: [
+        //       {
+        //         label: 'Tutorials',
+        //         to: '/tutorials',
+        //       },
+        //       {
+        //         label: 'Example Apps',
+        //         to: '/example-apps',
+        //       },
+        //       {
+        //         label: 'Stacks CLI',
+        //         to: '/references/stacks-cli',
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: 'References',
+        //     items: [
+        //       {
+        //         label: 'Stacks.js',
+        //         href: 'https://stacks.js.org',
+        //       },
+        //       {
+        //         label: 'Stacks Connect',
+        //         href: 'https://connect.stacks.js.org',
+        //       },
+        //       {
+        //         label: 'Clarity Functions',
+        //         href: 'https://docs.stacks.co/docs/clarity/language-functions',
+        //       },
+        //       {
+        //         label: 'Clarity Keywords',
+        //         href: 'https://docs.stacks.co/docs/clarity/language-keywords',
+        //       },
+        //       {
+        //         label: 'Clarity Types',
+        //         href: 'https://docs.stacks.co/docs/clarity/language-types',
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: 'Stacks Community',
+        //     items: [
+        //       {
+        //         label: 'Discord',
+        //         href: 'https://stacks.chat',
+        //       },
+        //       {
+        //         label: 'Stacks Forum',
+        //         href: 'https://forum.stacks.org',
+        //       },
+        //       {
+        //         label: 'Reddit',
+        //         href: 'https://www.reddit.com/r/stacks',
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: 'More',
+        //     items: [
+        //       {
+        //         label: 'GitHub',
+        //         href: 'https://github.com/CapybaraIO/doc',
+        //       },
+        //       {
+        //         label: 'Stacks Docs',
+        //         href: 'https://docs.stacks.co',
+        //       },
+        //       {
+        //         label: 'Blog',
+        //         href: 'https://www.hiro.so/blog',
+        //       },
+        //       {
+        //         label: 'Twitter',
+        //         href: 'https://twitter.com/hirosystems',
+        //       },
+        //       {
+        //         label: 'Youtube',
+        //         href: 'https://www.youtube.com/channel/UC3xNLj2Mu7fW-BCq-vC9xKQ',
+        //       },
+        //       {
+        //         label: 'Newsletter',
+        //         href: 'https://hiro.so/updates-docs',
+        //       },
+        //     ],
+        //   },
+        // ],
         copyright: `Copyright © ${new Date().getFullYear()} capybara`,
       },
       colorMode: {
@@ -233,6 +236,11 @@ module.exports = {
       },
       segment: {
         apiKey: 'qabJfWPhi2L9CeMk22A1XlYmabsNtgKy',
+      },
+      docs: {
+        sidebar: {
+          autoCollapseCategories: true,
+        }
       },
     }),
 };
